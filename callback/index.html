@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callback URL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #1DB954; /* Spotify green */
+            color: white;
+            text-align: center;
+        }
+        .container {
+            background-color: #282828; /* Dark background */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        p {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        .success {
+            color: #1DB954; /* Success color */
+        }
+        .error {
+            color: #FF0000; /* Error color */
+        }
+    </style>
+    <script>
+        // Get URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const success = urlParams.get('success'); // Assume you pass this parameter in the callback URL
+
+        // Show success or error message based on the URL parameter
+        function displayMessage() {
+            const statusContainer = document.getElementById('statusContainer');
+            const statusMessage = document.getElementById('statusMessage');
+
+            if (success === 'true') {
+                statusMessage.innerHTML = '<h1>Success!</h1><p>You can close this window.</p>';
+                statusContainer.classList.add('success');
+            } else {
+                statusMessage.innerHTML = '<h1>Error</h1><p>Failed to process your request. Please try again.</p>';
+                statusContainer.classList.add('error');
+            }
+        }
+
+        // Execute on page load
+        window.onload = displayMessage;
+    </script>
+</head>
+<body>
+    <div class="container" id="statusContainer">
+        <div id="statusMessage">
+            <h1>Loading...</h1>
+            <p>Please wait while we process your request.</p>
+        </div>
+    </div>
+</body>
+</html>
