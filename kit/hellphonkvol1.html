@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Killa Records - HELL PHONK VOL.1 </title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #121212;
+            --container-bg: rgba(31, 31, 31, 0.9);
+            --text-color: #fff;
+            --accent-color: #1db954; /* Spotify green */
+            --footer-bg: #1f1f1f;
+            --button-hover-color: rgba(29, 185, 84, 0.8);
+            --button-disabled-color: #555; /* Gray color for disabled button */
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .container {
+            background-color: var(--container-bg);
+            border-radius: 15px;
+            padding: 40px 30px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+            position: relative;
+            z-index: 1;
+        }
+
+        h2 {
+            font-size: 26px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 12px 25px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            margin: 20px auto;
+            width: 100%;
+            max-width: 200px;
+        }
+
+        #follow-button {
+            background-color: var(--accent-color);
+        }
+
+        #unlock-button {
+            background-color: var(--button-disabled-color);
+            cursor: default;
+        }
+
+        button:hover {
+            background-color: var(--button-hover-color);
+      
+
+        }
+
+        iframe {
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: var(--footer-bg);
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 12px;
+            margin-top: 20px;
+        }
+
+        .footer a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: rgba(255, 255, 255, 1);
+        }
+
+        .unlock-message {
+            display: none;
+            margin-top: 20px;
+            font-size: 18px;
+            color: var(--accent-color);
+        }
+
+        .icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .disabled-message {
+            margin-top: 10px;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        #particles-js {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div id="particles-js"></div>
+
+<div class="container">
+    <h2>Follow Spotify Playlist to HELL PHONK VOL. 1</h2>
+    <p>Please folow our spotify playlist to get download.</p>
+    <iframe width="440" height="315" src="https://www.youtube-nocookie.com/embed/wDchsz8nmbo?si=yX2EQLF6saODJeS4&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <button id="follow-button">
+        <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Black.png" alt="Spotify Logo" class="icon">
+        Follow Playlist
+    </button>
+
+    <button id="unlock-button" disabled>
+        Unlock Content
+    </button>
+
+    <div id="unlock-message" class="unlock-message">🎉 Content Unlocked! Clikc unlock and Enjoy!</div>
+    <div id="disabled-message" class="disabled-message" style="display: none;">Unlocking in progress...</div>
+
+</div>
+
+<div class="footer">
+    &copy; 2024 <a href="agreement.html">Killa Records</a>. All rights reserved.
+
+</div>
+
+<!-- Include particles.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+<script>
+    // Initialize particles.js
+    particlesJS("particles-js", {
+        particles: {
+            number: {
+                value: 50, // Number of particles
+                density: {
+                    enable: true,
+                    value_area: 800
+                }
+            },
+            color: {
+                value: "#808080" // Dark grey particles
+            },
+            shape: {
+                type: "circle",
+                stroke: {
+                    width: 0,
+                    color: "#000000"
+                },
+                polygon: {
+                    nb_sides: 5
+                },
+                image: {
+                    src: "img/github.svg",
+                    width: 100,
+                    height: 100
+                }
+            },
+            opacity: {
+                value: 0.5,
+                random: false,
+                anim: {
+                    enable: false,
+                    speed: 1,
+                    opacity_min: 0.1,
+                    sync: false
+                }
+            },
+            size: {
+                value: 5, // Size of particles
+                random: true,
+                anim: {
+                    enable: false,
+                    speed: 10,
+                    size_min: 0.1,
+                    sync: false
+                }
+            },
+            line_linked: {
+                enable: true,
+                distance: 150,
+                color: "#808080", // Color of connecting lines
+                opacity: 0.4,
+                width: 1
+            },
+            move: {
+                enable: true,
+                speed: 1, // Speed of particle movement
+                direction: "none",
+                random: false,
+                straight: false,
+                out_mode: "out",
+                bounce: false,
+                attract: {
+                    enable: false,
+                    rotateX: 600,
+                    rotateY: 1200
+                }
+            }
+        },
+        interactivity: {
+            detect_on: "canvas",
+            events: {
+                onhover: {
+                    enable: true,
+                    mode: "grab"
+                },
+                onclick: {
+                    enable: false,
+                    mode: "push"
+                },
+                resize: true
+            },
+            modes: {
+                grab: {
+                    distance: 200,
+                    line_linked: {
+                        opacity: 0.5
+                    }
+                },
+                bubble: {
+                    distance: 400,
+                    size: 40,
+                    duration: 2,
+                    opacity: 8,
+                    color: "#fff"
+                },
+                repulse: {
+                    distance: 200,
+                    duration: 0.4
+                },
+                push: {
+                    particles_nb: 4
+                },
+                remove: {
+                    particles_nb: 2
+                }
+            }
+        },
+        retina_detect: true
+    });
+
+    const followButton = document.getElementById('follow-button');
+    const unlockButton = document.getElementById('unlock-button');
+    const unlockMessage = document.getElementById('unlock-message');
+    const disabledMessage = document.getElementById('disabled-message');
+    const youtubeVideo = document.getElementById('youtube-video');
+
+    followButton.addEventListener('click', () => {
+        let timeLeft = 15; // Set the countdown time (hidden from user)
+        unlockMessage.style.display = 'none'; // Hide the unlock message
+        disabledMessage.style.display = 'block'; // Show the unlocking message
+        unlockButton.disabled = true; // Disable the unlock button
+        unlockButton.style.backgroundColor = 'var(--button-disabled-color)'; // Set disabled color
+
+        // Simulate a 15 second delay for unlocking
+        const countdownInterval = setInterval(() => {
+            timeLeft--;
+
+            // When countdown reaches zero
+            if (timeLeft <= 0) {
+                clearInterval(countdownInterval); // Stop the interval
+                unlockButton.disabled = false; // Enable unlock button
+                unlockButton.style.backgroundColor = 'var(--accent-color)'; // Set normal color
+                disabledMessage.style.display = 'none'; // Hide unlocking message
+                unlockMessage.style.display = 'block'; // Show unlock message
+                youtubeVideo.style.display = 'block'; // Display YouTube video
+                unlockButton.style.cursor = 'default'; // Set the cursor to default
+            }
+        }, 1000);
+
+        // Open the Spotify playlist URL in a new tab
+        window.open('https://open.spotify.com/playlist/YOUR_PLAYLIST_ID', '_blank');
+    });
+</script>
+
+</body>
+</html>
