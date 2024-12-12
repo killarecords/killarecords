@@ -1,51 +1,59 @@
 LICENSE AGREEMENT
-This License Agreement ("Agreement") is made on this day, by and between:
+This License Agreement ("Agreement") is entered into on this day, by and between:
 Killa Records ("Label") and ("Artist").
-________________________________________
 Agreement Details
-•	Territory: Worldwide
-•	Rights Period: 1460 days
-________________________________________
-Terms and Conditions
-Welcome to Killa Records! By collaborating with us, you agree to the following terms:
-________________________________________
-1. Artist Requirements
-•	Release Commitment: Artist must release at least one track annually. Non-compliance may result in termination.
-•	Content Exclusivity: No public previews over one minute before release. Unauthorized previews may lead to termination.
-•	Confidentiality: Artist must keep all Killa Records information confidential. Breaches may lead to termination and legal action.
-•	Professional Conduct: Artist should act professionally with Killa Records and its affiliates.
-•	Meeting Attendance: Attendance at required meetings (CHAT) is mandatory.
-•	Content Ownership: All music must be original and owned by the Artist.
-________________________________________
-2. Parental/Guardian Consent
-•	Age Verification: If under 18, a parent/guardian must co-sign this Agreement.
-•	Parental Responsibilities: Parent/guardian supervises the Artist and is responsible for their actions.
-•	Indemnification: Parent/guardian agrees to indemnify Killa Records against claims arising from the Artist's actions.
-________________________________________
-3. Copyright and Liability
-•	Copyright Assurance: Artist certifies no infringement on third-party copyrights. The Artist is liable for infringement claims.
-•	Notification: Killa Records may notify authorities of copyright claims. The Artist will cooperate in investigations.
-•	Liability Waiver: Killa Records is not liable for claims related to the Artist’s music or conduct.
-________________________________________
-4. Royalty Terms
-•	Royalty Splits:
-o	Label: 35%
-o	Artist: 65%
-•	Payment Schedule: Royalties calculated quarterly, with statements provided via email.
-•	Dispute Resolution: Any disputes must be raised within 30 days of the statement receipt.
-________________________________________
-5. Quality Control
-•	Modification Rights: Killa Records may modify tracks at its discretion.
-•	Quality Standards: Submissions must meet Killa Records' standards; non-compliant submissions may be rejected.
-•	Promotion: Artists must promote releases in alignment with Killa Records' branding guidelines.
-________________________________________
-6. Legal Protections
-• Indemnification: The Artist agrees to fully indemnify and hold Killa Records harmless against any and all claims, damages, liabilities, or expenses, including legal fees, arising from any actions, omissions, or breaches by the Artist under this Agreement.
-• Governing Law: This Agreement shall be governed by the laws of the Artist's country of residence. All disputes, lawsuits, or claims, regardless of their origin, shall be resolved exclusively in favor of Killa Records, and the Artist shall bear all resulting liabilities or penalties.
-• Severability: If any provision of this Agreement is deemed invalid or unenforceable, such invalidity shall not affect the enforceability of the remaining provisions, which shall remain binding on the Artist to the fullest extent permitted 
-________________________________________
-7. Signatures
-By signing this, all individuals listed acknowledge and agree to the terms provided.
-•	Artist Signature
-•	Parent/Guardian Signature
 
+    Territory: Worldwide
+    Rights Period: 1,460 days
+
+Terms and Conditions
+
+Welcome to Killa Records! By collaborating with us, you agree to the following terms:
+1. Artist Requirements
+
+    Release Commitment: The Artist must release at least one track annually. Non-compliance may result in termination.
+    Content Exclusivity: The Artist is prohibited from sharing public previews exceeding one minute before release. Unauthorized previews may lead to termination.
+    Confidentiality: The Artist must keep all Killa Records' information confidential. Breaches may result in termination and legal action.
+    Professional Conduct: The Artist must act professionally in all dealings with Killa Records and its affiliates.
+    Meeting Attendance: The Artist must attend all required meetings (CHAT).
+    Content Ownership: All music submissions must be original works fully owned by the Artist.
+
+2. Parental/Guardian Consent
+
+    Age Verification: If the Artist is under 18, a parent/guardian must co-sign this Agreement.
+    Parental Responsibilities: The parent/guardian must supervise the Artist's actions and ensure compliance.
+    Indemnification: The parent/guardian indemnifies Killa Records against any claims arising from the Artist's actions.
+
+3. Copyright and Liability
+
+    Copyright Assurance: The Artist certifies that their work does not infringe on any third-party copyrights. The Artist assumes full liability for any infringement claims.
+    Notification: Killa Records may notify relevant authorities of copyright violations. The Artist agrees to cooperate in any investigations.
+    Liability Waiver: Killa Records is not liable for claims related to the Artist’s music, actions, or conduct.
+
+4. Royalty Terms
+
+    Royalty Splits:
+        Label: 35%
+        Artist: 65%
+    Payment Schedule: Royalties will be calculated quarterly, with statements sent via email.
+    Dispute Resolution: Royalty disputes must be raised within 30 days of receiving the statement.
+
+5. Quality Control
+
+    Modification Rights: Killa Records reserves the right to modify tracks as deemed necessary for quality or marketing purposes.
+    Quality Standards: All submissions must meet Killa Records’ standards. Non-compliant submissions may be rejected.
+    Promotion: The Artist agrees to promote releases in alignment with Killa Records' branding guidelines.
+
+6. Legal Protections
+
+    Indemnification: The Artist agrees to indemnify and hold Killa Records harmless against all claims, damages, liabilities, or expenses, including legal fees, resulting from the Artist's actions, omissions, or breaches under this Agreement.
+    Anonymous Ownership: The ownership of Killa Records shall remain strictly confidential. The Artist agrees not to disclose the identity of the Label owner under any circumstances. Breaches will result in immediate termination and legal action.
+    Governing Law: This Agreement shall be governed by the laws of the Artist’s country of residence. All disputes, lawsuits, or claims, regardless of origin, shall be resolved exclusively in favor of Killa Records, with the Artist bearing all resulting liabilities and penalties.
+    Severability: If any provision of this Agreement is found invalid or unenforceable, the remaining provisions will remain in full force and effect to the maximum extent allowed by law.
+
+7. Signatures
+
+By signing this Agreement, all parties confirm they have read, understood, and agree to abide by its terms.
+
+    Artist Signature
+    Parent/Guardian Signature (if applicable)
